@@ -23,7 +23,6 @@ body {
 
 .panel {
     height: 80vh;
-   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,4 +64,10 @@ body {
     .panel:nth-of-type(5) {
         display: none;
     }
+}
+
+
+/* Webkit to hide scrollbar */
+::-webkit-scrollbar {
+    display: none;
 }
